@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Section 1 */
+
+.section1 {
+    height: 100vh;
+    width: 100%;
+    display: flexbox;
+    background-image: url(/ASSETS/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    height: 30%;
+    padding-top: 5vh;
+    color: #fff;
+    text-align: center;
+   /*  font-size: 1vw; */
+   font-size: 25px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+}
+
+.center h1{
+    color: rgb(255, 0, 0);
+    /* font-size: 5vw; */
+    font-size: 70px;
+}
+
+.lower {
+    height: 30%;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+}
+
+.lower p {
+    width: 85%;
+    /* font-size: 2vw; */
+    font-size: 35px;
+    color: #fff;
+    padding-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timer {
+    height: 20%;
+    width: 100%;
+    padding-top: 1vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.timer p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.timer ul {
+    width: 50%;
+    margin-left: 27%;
+    gap: 5px;
+}
+
+.countdown {
+    display: inline-flex;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
+    justify-content: center;
+}
+
+.countdown span {
+    font-size: 30px;
+}
+
+.countdown div {
+    font-size: 20px;
+}
+
+.countdown li {
+    width: 50%;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    color: #fff;
+    background: #1e1e1e;
+    padding: 10px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.content {
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#card {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#card p {
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.enviar {
+    color: white;
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .section1 {
+        height: 100vh;
+        width: 100%;
+        display: flexbox;
+        background-image: url(/ASSETS/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .center {
+        height: 26%;
+        padding-top: 1vh;
+        color: #fff;
+        text-align: center;
+       /*  font-size: 1vw; */
+        font-size: 10px;
+        overflow: hidden;
+        box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+    }
+
+    .center h1{
+        color: rgb(255, 0, 0);
+        /* font-size: 5vw; */
+        font-size: 8vh;
+    }
+
+    .lower {
+        height: 22%;
+    }
+
+    .lower p {
+        width: 85%;
+        /* font-size: 2vw; */
+        font-size: 3vh;
+        color: #fff;
+        padding-top: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .timer {
+        height: 20%;
+    }
+
+    .timer p {
+        font-size: 3vh;
+    }
+
+    .countdown span {
+        font-size: 5vh;
+    }
+    
+    .countdown div {
+        font-size: 2vh;
+    }
+
+    .content {
+        height: 31%;
+    }
+    
+    .content h2 {
+        font-size: 3vh;
+    }
+
+    #card p {
+        font-size: 2vh;
+    }
+
+    input {
+        font-size: 2vh;
+        height: 25px;
+        width: 30vh;
+    }
+
+    .enviar {
+        height: 25px;
+        width: 33vh;
+    }
+
+}
